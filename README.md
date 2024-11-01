@@ -10,9 +10,15 @@ This document provides the MD5 hashes for the files included in the **challenges
 | `oceanlocust/ocean_locust.7z`         | 2A44CE882235FF9A15006A554FC4B83C  |
 | `rusty_bin/rusty_bin.exe`            | 5DAF721C41A7AE54656A1208338994CE  |
 
-## How to Verify File Hashes
+# How to Verify File Hashes
 
 You can verify the MD5 hash of a file using PowerShell with the following command:
 
 ```powershell
 Get-FileHash .\path\to\your\file -Algorithm MD5
+
+# Credits
+
+All binaries are part of **Huntress 2024 CTF** challenges. 
+
+[Huntress](https://www.huntress.com) || [Huntress CTF](https://huntress.ctf.games)
