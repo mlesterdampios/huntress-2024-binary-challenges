@@ -16,6 +16,7 @@ You can verify the MD5 hash of a file using PowerShell with the following comman
 
 ```powershell
 Get-FileHash .\path\to\your\file -Algorithm MD5
+```
 
 # Credits
 
